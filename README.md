@@ -18,6 +18,22 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Clonar archivo ```env.sample``` y renombrar copia ```.env```
+
+
+6. Cargar la lista de pokemons si esta vacia
+
+```
+http://localhost:3000/api/v2/seed
+```
+7. Ejecutar la aplicacion con el comando
+
+``` 
+yarn start:dev 
+```
+
 ## Stack usado
 * MongoDB
 * Nest
+
+
